@@ -9,6 +9,7 @@ import Image from 'next/image';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useState } from 'react';
+import {FloatingWhatsApp} from "react-floating-whatsapp";
 
 export default function Home() {
   const [formData, setFormData] = useState({
@@ -92,6 +93,7 @@ export default function Home() {
 
   return (
     <>
+      <FloatingWhatsApp phoneNumber={"27648917936"} accountName={"Lutroo Health and Wellness"} avatar={'/logo_accent.svg'} chatMessage={"Hi there! Welcome to Lutroo Health and Wellness"}/>
       <Navigation />
 
       <section className="relative min-h-screen flex items-center bg-gradient-to-br from-[#003D63] via-[#003D63] to-[#005a8c] overflow-hidden">
@@ -148,15 +150,9 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold text-[#003D63] mb-6 font-serif">
               About Us
             </h2>
-             <p className="text-gray-700 leading-relaxed mb-4">
-                Lutroo Health and Wellness is an organization offering a range of services to cater to the mental health and holistic health needs of our clients. With a focus on providing personalized support and guidance, we aim to help individuals achieve their mental health goals through a holistic approach.
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                Our holistic approach focuses on healing body, mind, soul and restoring relationships. Lutroo provides faith-based counseling, seminars, workshops, health and wellness coaching, and employee health and wellness services.
-              </p>
-              <p className="text-gray-700 leading-relaxed">
-                Our services are available online, ensuring accessibility to all our clients. We cater for individuals, families, and couples.
-              </p>
+            <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+              At Lutroo Health and Wellness, we believe true healing is wholistic; encompassing body, mind, spirit and relationships. Through Christ’s redemptive power, we walk with you toward restoration, balance, and flourishing, where faith and professional therapy meet. Whether you are seeking emotional healing, stronger relationships or spiritual growth, we journey alongside you with compassion, expertise and Christ-centered care.
+            </p>
 
             
           </div>
@@ -192,7 +188,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold text-[#003D63] mb-3">Who We Serve</h3>
               <p className="text-gray-700 leading-relaxed">
-                Individuals, families, and couples seeking holistic mental health support and spiritual guidance
+                Individuals, families, and couples seeking wholistic mental health support and spiritual guidance
               </p>
             </div>
 
@@ -202,7 +198,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold text-[#003D63] mb-3">Our Approach</h3>
               <p className="text-gray-700 leading-relaxed">
-                Holistic healing that focuses on body, mind, soul and restoring relationships through faith-based principles
+                Wholistic healing that focuses on body, mind, soul and restoring relationships through faith-based principles
               </p>
             </div>
 
@@ -223,7 +219,7 @@ export default function Home() {
       <h2 className="text-4xl md:text-5xl font-bold text-[#003D63] mb-6 font-serif">
               Get in Touch
             </h2>
-              <form onSubmit={handleSubmit} className="space-y-6 w-[450px]">
+              <form onSubmit={handleSubmit} className="space-y-6 max-w-[450px]">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-[#003D63] mb-2">
                     Full Name

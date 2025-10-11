@@ -20,17 +20,33 @@ export default function About() {
 
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-12 items-start">
             <div>
               <h2 className="text-4xl font-bold text-[#003D63] mb-6 font-serif">Who We Are</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Lutroo Health and Wellness is an organization offering a range of services to cater to the mental health and holistic health needs of our clients. With a focus on providing personalized support and guidance, we aim to help individuals achieve their mental health goals through a holistic approach.
+                Lutroo is a Greek word meaning “to redeem” or “to ransom”. At the heart of our mission is the truth that Christ paid it all at the Cross; not only to forgive our sins but to restore us fully to His image. True restoration is wholistic, encompassing the mind, body, spirit and even our relationships. Christ died so that we can be free from diseases, brokenness and anything that keeps us from living in full health and purpose.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Our holistic approach focuses on healing body, mind, soul and restoring relationships. Lutroo provides faith-based counseling, seminars, workshops, health and wellness coaching, and employee health and wellness services.
+                At Lutroo Health and Wellness, we believe that God’s desire is for each person to be whole. Just as Christ looks at us as complete beings, our approach focuses on the whole person. We integrate psychology, faith and practical wellness strategies to guide you toward mental clarity, spiritual growth and physical health.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                Our services are available online, ensuring accessibility to all our clients. We cater for individuals, families, and couples.
+                Why choose Lutroo? We combine Christ centered guidance with professional therapy, wholistic wellness support and creative tools designed to restore wholeness in every part of your life. Our tagline, “Wholistic health” reflects our commitment to supporting every aspect of you, helping you experience true restoration, balance and a flourishing life.
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                Why choose Lutroo? We combine Christ centered guidance with professional therapy, wholistic wellness support and creative tools designed to restore wholeness in every part of your life. Our tagline, “Wholistic health” reflects our commitment to supporting every aspect of you, helping you experience true restoration, balance and a flourishing life.
+              </p>
+              <h2 className="text-4xl font-bold text-[#003D63] mb-6 font-serif mt-10">Meet your therapist </h2>
+              <p className="text-gray-700 leading-relaxed">
+                  <span className="text-[#5CECD3] font-bold">Lethokuhle</span> is Social Worker and Christian Psychotherapist specializing in faith-based counseling and wholistic health. She has a deep passion for couple counseling and family life, believing that strong families are the foundation of thriving communities.
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                Beyond private practice, she is a professional public speaker, sharing insights on health and wellness in churches and communities. Committed to making counseling accessible to all, she provides free services through health expos, where she hosts Open Space Counseling and provides virtual counseling to young people navigating identity, purpose and life transitions.
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                Through her ministry she visits the elderly and physically challenged bringing counseling and care directly into their homes.
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                She is inspired by sunflowers because they always look toward the direction of the sun- a reminder to face the light even in darkest seasons. Just as the sunflower seeks the sun, she believes that every person can turn toward God’s light; finding hope, healing and resilience along the way.
               </p>
             </div>
             <div className="bg-[#5CECD3]/10 rounded-2xl p-8">
@@ -40,7 +56,7 @@ export default function About() {
                     <Heart className="text-[#003D63]" size={24} />
                   </div>
                   <div>
-                    <h3 className="font-bold text-[#003D63] text-lg mb-2">Holistic Approach</h3>
+                    <h3 className="font-bold text-[#003D63] text-lg mb-2">Wholistic Approach</h3>
                     <p className="text-gray-700 text-sm">Healing body, mind, soul, and restoring relationships</p>
                   </div>
                 </div>
@@ -70,6 +86,9 @@ export default function About() {
        <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="p-8">
+              <img src="/about.jpeg"/>
+            </div>
             <div>
                  <h2 className="text-4xl font-bold text-[#003D63] my-6 font-serif">Our Mission</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
@@ -77,9 +96,7 @@ export default function About() {
               </p>
               
             </div>
-            <div className="p-8">
-              
-            </div>
+
           </div>
         </div>
       </section>
@@ -101,7 +118,7 @@ export default function About() {
                Reg No: 10-53868
               </p>
               <p className="text-gray-700 leading-relaxed">
-               Pr No: 1191291
+               Pr No: 1191292
               </p>
             </div>
           

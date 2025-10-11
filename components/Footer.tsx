@@ -64,11 +64,11 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center space-x-2 text-sm text-gray-300">
                 <Phone size={16} className="text-[#5CECD3]" />
-                <span>+27 69 992 5452</span>
+                <a href="tel:+2769992545" className="hover:underline">+27 69 992 5452</a>
               </li>
               <li className="flex items-center space-x-2 text-sm text-gray-300">
                 <Mail size={16} className="text-[#5CECD3]" />
-                <span>info@lutroo.co.za</span>
+                <a href="mailto:info@lutroo.co.za" className="hover:underline">info@lutroo.co.za</a>
               </li>
               <li className="flex items-center space-x-2 text-sm text-gray-300">
                 <Instagram size={16} className="text-[#5CECD3]" />

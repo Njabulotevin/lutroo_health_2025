@@ -57,7 +57,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold text-[#003D63] mb-1">Phone</h3>
-                    <p className="text-gray-700">+1 (555) 123-4567</p>
+                    <a href="tel:+2769992545" className="text-gray-700 hover:underline">+27 69 992 5452</a>
                   </div>
                 </div>
 
@@ -67,7 +67,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold text-[#003D63] mb-1">Email</h3>
-                    <p className="text-gray-700">info@lutroo.com</p>
+                    <a href="mailto:info@lutroo.co.za" className="text-gray-700 hover:underline">info@lutroo.com</a>
                   </div>
                 </div>
 
@@ -138,7 +138,7 @@ export default function Contact() {
                     value={formData.phone}
                     onChange={handleChange}
                     className="w-full"
-                    placeholder="+1 (555) 123-4567"
+                    placeholder="071 234 5678"
                   />
                 </div>
 
