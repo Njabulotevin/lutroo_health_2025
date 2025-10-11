@@ -93,7 +93,7 @@ export default function Home() {
 
   return (
     <>
-      <FloatingWhatsApp phoneNumber={"2769992545"} accountName={"Lutroo Health and Wellness"} avatar={'/logo_accent.svg'} chatMessage={"Hi there! Welcome to Lutroo Health and Wellness"}/>
+      <FloatingWhatsApp phoneNumber={"27699925452"} accountName={"Lutroo Health and Wellness"} avatar={'/logo_accent.svg'} chatMessage={"Hi there! Welcome to Lutroo Health and Wellness"}/>
       <Navigation />
 
       <section className="relative min-h-screen flex items-center bg-gradient-to-br from-[#003D63] via-[#003D63] to-[#005a8c] overflow-hidden">
