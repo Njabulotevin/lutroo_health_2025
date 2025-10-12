@@ -32,9 +32,6 @@ export default function About() {
               <p className="text-gray-700 leading-relaxed">
                 Why choose Lutroo? We combine Christ centered guidance with professional therapy, wholistic wellness support and creative tools designed to restore wholeness in every part of your life. Our tagline, “Wholistic health” reflects our commitment to supporting every aspect of you, helping you experience true restoration, balance and a flourishing life.
               </p>
-              <p className="text-gray-700 leading-relaxed">
-                Why choose Lutroo? We combine Christ centered guidance with professional therapy, wholistic wellness support and creative tools designed to restore wholeness in every part of your life. Our tagline, “Wholistic health” reflects our commitment to supporting every aspect of you, helping you experience true restoration, balance and a flourishing life.
-              </p>
               <h2 className="text-4xl font-bold text-[#003D63] mb-6 font-serif mt-10">Meet your therapist </h2>
               <p className="text-gray-700 leading-relaxed">
                   <span className="text-[#5CECD3] font-bold">Lethokuhle</span> is Social Worker and Christian Psychotherapist specializing in faith-based counseling and wholistic health. She has a deep passion for couple counseling and family life, believing that strong families are the foundation of thriving communities.
