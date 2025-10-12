@@ -151,7 +151,7 @@ export default function Home() {
               About Us
             </h2>
             <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-              At Lutroo Health and Wellness, we believe true healing is wholistic; encompassing body, mind, spirit and relationships. Through Christ’s redemptive power, we walk with you toward restoration, balance, and flourishing, where faith and professional therapy meet. Whether you are seeking emotional healing, stronger relationships or spiritual growth, we journey alongside you with compassion, expertise and Christ-centered care.
+              At Lutroo Health and Wellness, We believe true healing is complete; all encompassing body, mind, spirit and relationships. Through Christ’s redemptive power, we walk with you toward restoration, balance, and flourishing, where faith and professional therapy meet. Whether you are seeking emotional healing, stronger relationships or spiritual growth, we journey alongside you with compassion, expertise and Christ-centered care.
             </p>
 
             
@@ -188,7 +188,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold text-[#003D63] mb-3">Who We Serve</h3>
               <p className="text-gray-700 leading-relaxed">
-                Individuals, families, and couples seeking wholistic mental health support and spiritual guidance
+                Who we serve: individuals, families and couples seeking integrated mental health support and spiritual guidance
               </p>
             </div>
 
@@ -198,7 +198,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold text-[#003D63] mb-3">Our Approach</h3>
               <p className="text-gray-700 leading-relaxed">
-                Wholistic healing that focuses on body, mind, soul and restoring relationships through faith-based principles
+                Comprehensive healing that focuses on the body, mind and soul, restoring relationships through faith-based principles
               </p>
             </div>
 

@@ -30,7 +30,7 @@ export default function About() {
                 At Lutroo Health and Wellness, we believe that God’s desire is for each person to be whole. Just as Christ looks at us as complete beings, our approach focuses on the whole person. We integrate psychology, faith and practical wellness strategies to guide you toward mental clarity, spiritual growth and physical health.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                Why choose Lutroo? We combine Christ centered guidance with professional therapy, wholistic wellness support and creative tools designed to restore wholeness in every part of your life. Our tagline, “Wholistic health” reflects our commitment to supporting every aspect of you, helping you experience true restoration, balance and a flourishing life.
+                Why choose Lutroo? We combine Christ centered guidance with professional therapy, wholistic wellness support and creative tools designed to restore wholeness in every part of your life. Our tagline, <span className="font-bold">“Wholistic health”</span> reflects our commitment to supporting every aspect of you, helping you experience true restoration, balance and a flourishing life.
               </p>
               <h2 className="text-4xl font-bold text-[#003D63] mb-6 font-serif mt-10">Meet your therapist </h2>
               <p className="text-gray-700 leading-relaxed">
