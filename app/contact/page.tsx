@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useState } from 'react';
+import axios from "axios";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -16,9 +17,18 @@ export default function Contact() {
     message: ''
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
+    const res = await axios.post('https://lutroo.co.za/api/form', formData)
+
+    console.log(res)
+
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      message: ''
+    })
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {

@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4 bg-white p-2 rounded-md">
                <Link href="/" className="flex items-center space-x-2">
-            <img src="logo_accent.svg"/>
+            <img src="/logo_accent.svg"/>
           </Link>
             </div>
             <p className="text-gray-300 text-sm">
@@ -64,7 +64,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center space-x-2 text-sm text-gray-300">
                 <Phone size={16} className="text-[#5CECD3]" />
-                <a href="tel:+2769992545" className="hover:underline">+27 69 992 5452</a>
+                <a href="tel:+27699925452" className="hover:underline">+27 69 992 5452</a>
               </li>
               <li className="flex items-center space-x-2 text-sm text-gray-300">
                 <Mail size={16} className="text-[#5CECD3]" />

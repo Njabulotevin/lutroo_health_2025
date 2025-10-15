@@ -10,6 +10,8 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useState } from 'react';
 import {FloatingWhatsApp} from "react-floating-whatsapp";
+import axios from "axios";
+import {useRouter} from "next/navigation";
 
 export default function Home() {
   const [formData, setFormData] = useState({
@@ -19,9 +21,19 @@ export default function Home() {
     message: ''
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
+
+    const res = await axios.post('https://lutroo.co.za/api/form', formData)
+
+    console.log(res)
+
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      message: ''
+    })
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -30,6 +42,8 @@ export default function Home() {
       [e.target.name]: e.target.value
     });
   };
+
+  const router = useRouter();
 
   const services = [
     {
@@ -117,7 +131,7 @@ export default function Home() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-[#5CECD3] text-[#003D63] hover:bg-white hover:text-[#003D63] text-lg px-8 py-6 transition-all transform hover:scale-105 shadow-lg">
+                <Button onClick={()=>router.push("/booking")} size="lg" className="bg-[#5CECD3] text-[#003D63] hover:bg-white hover:text-[#003D63] text-lg px-8 py-6 transition-all transform hover:scale-105 shadow-lg">
                   Book a Session
                 </Button>
               </div>
@@ -219,7 +233,7 @@ export default function Home() {
       <h2 className="text-4xl md:text-5xl font-bold text-[#003D63] mb-6 font-serif">
               Get in Touch
             </h2>
-              <form onSubmit={handleSubmit} className="space-y-6 max-w-[450px]">
+              <form onSubmit={handleSubmit} className="space-y-6 w-[360px] p-5">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-[#003D63] mb-2">
                     Full Name
